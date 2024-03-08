@@ -10,4 +10,4 @@ I'm using Python 3.11.7, [download here](https://www.python.org/downloads/releas
    b) Once in the cloned repo, enter `python -m venv venv` into the command window  
    c) Activate the virtual environment: `cd venv\Scripts`, and on a new line, `activate`  
    d) Navigate to the directory with requirements.txt (`cd ..` takes you up a directory)  
-   e) Once in HarvestEye directory, run `pip install -r requirements.txt`
+   e) Once in the main directory, run `pip install -r requirements.txt`
