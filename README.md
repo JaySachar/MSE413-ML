@@ -11,3 +11,12 @@ I'm using Python 3.11.7, [download here](https://www.python.org/downloads/releas
    c) Activate the virtual environment: `cd venv\Scripts`, and on a new line, `activate`  
    d) Navigate to the directory with requirements.txt (`cd ..` takes you up a directory)  
    e) Once in the main directory, run `pip install -r requirements.txt`
+3. ** Using the virtual Environment**
+   a) Open the .ipynb file in VS Code
+   b) On the top right of the editor, below the settings cog, there should be a clickable thing, that'll let you choose the "kernel" for running the file
+   c) Click it, and if the virtual environment folder path doesn't show up, click "Select another kernel"
+   d) Then click "Python Environment"
+   e) Select the virtual environment with the file path "MSE413-ML\venv\Scripts\python.exe"
+   
+   If the above doesn't work, if you do ctrl+shift+P, search for "Selelct Interpreter" for Python, and then "Enter Interpreter Path". Now you can enter the path to the virtual environment, which will be:
+   C:/Users/.../MSE413-ML/venv/Scripts/python.exe
